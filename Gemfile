@@ -30,5 +30,7 @@ group :test do
   gem 'page-object'
   gem 'rspec'
   gem 'cucumber'
+  gem 'cucumber-rails', :require => false
+  # database_cleaner is not required, but highly recommended
+  gem 'database_cleaner'
 end
-
