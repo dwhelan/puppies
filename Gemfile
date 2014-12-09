@@ -31,13 +31,4 @@ group :test do
   gem 'rspec'
   gem 'cucumber'
   gem 'factory_girl'
-  #gem 'cucumber-rails', :require => false
-  ## database_cleaner is not required, but highly recommended
-  #gem 'database_cleaner'
 end
-
-gem 'cucumber'
-gem 'rspec'
-gem 'page-object'
-gem 'require_all'
-gem 'rake'
